@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="link">
+        <a href="index.html">Go to Mau's Google search</a>
+    </div>
+    <h1>Google de Mauricio</h1>
+    <h4>Advanced search</h4>
+    <form action="https://www.google.com/search">
+        <label for="all">All these words</label>
+        <input type="text" class="buscador" name="as_q" placeholder="All these words" id="all">
+        <p></p>
+
+        <label for="exact">This exact word or phrase</label>
+        <input type="text" class="buscador" name="as_epq" placeholder="This exact word or phrase" id="exact">
+        <p></p>
+
+        <label for="any">Any of these words</label>
+        <input type="text" class="buscador" name="as_oq" placeholder="Any of these words" id="any">
+        <p></p>
+        
+        <label for="none">None of these words</label>
+        <input type="text" class="buscador" name="as_eq" placeholder="None of these words" id="none">
+        <p></p>
+        
+        <input type="submit" class="boton" value="Google Search">
+    </form>
+</body>
+</html>
